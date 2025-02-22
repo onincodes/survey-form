@@ -18,45 +18,38 @@
         <!-- User Story 3, 10, 11 -->
         <form method="get" id="survey-form">
           <!-- User Story 4 -->
-          <label id="name">Full Name:</label>
+          <label id="name-label">Full Name:</label>
           <br />
-          <input
-            type="text"
-            name="fullname"
-            required
-            placeholder="Full name"
-            id="name-label"
-          />
+          <input type="text" name="fullname" required placeholder="Full name" />
           <br />
           <!-- User Story 5, 6 -->
-          <label id="email">Email:</label>
+          <label id="email-label">Email:</label>
           <br />
           <input
             type="email"
             name="email"
             required
             placeholder="Email address"
-            id="email-label"
           />
 
           <div id="age-era-players">
             <div id="age-era">
               <!-- User Story 7, 8, 9 -->
-              <label for="age" id="number">Age:</label>
+              <label for="age" id="number-label">Age:</label>
               <br />
               <input
                 type="number"
                 name="age"
                 min="12"
                 max="100"
-                id="number-label"
+                id="number"
                 placeholder="Age"
                 required
               />
               <!-- User Story 12 -->
-              <label for="era" id="dropdown">Your Favorite Era:</label>
+              <label for="era">Your Favorite Era:</label>
               <br />
-              <select name="era">
+              <select name="era" id="dropdown">
                 <option selected disabled>Select Era</option>
                 <option value="50s">50's</option>
                 <option value="60s">60's</option>

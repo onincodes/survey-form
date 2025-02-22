@@ -100,7 +100,7 @@ select {
   margin-bottom: 0.5vw;
 }
 
-#number-label,
+#number,
 select {
   width: 18vw;
   height: 3.6vw;
