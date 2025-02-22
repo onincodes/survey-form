@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>G.O.A.T. Survey</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="survey-page">
+      <img src="goat.png" id="players-img" />
+
+      <div id="survey-info">
+        <!-- User Story 1 -->
+        <h1 id="title">Who's THE G.O.A.T. of Basketball?</h1>
+        <!-- User Story 2 -->
+        <p id="description">The Greatest Of All Time</p>
+      </div>
+      <div id="survey">
+        <!-- User Story 3, 10, 11 -->
+        <form method="get" id="survey-form">
+          <!-- User Story 4 -->
+          <label id="name">Full Name:</label>
+          <br />
+          <input
+            type="text"
+            name="fullname"
+            required
+            placeholder="Full name"
+            id="name-label"
+          />
+          <br />
+          <!-- User Story 5, 6 -->
+          <label id="email">Email:</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="Email address"
+            id="email-label"
+          />
+
+          <div id="age-era-players">
+            <div id="age-era">
+              <!-- User Story 7, 8, 9 -->
+              <label for="age" id="number">Age:</label>
+              <br />
+              <input
+                type="number"
+                name="age"
+                min="12"
+                max="100"
+                id="number-label"
+                placeholder="Age"
+                required
+              />
+              <!-- User Story 12 -->
+              <label for="era" id="dropdown">Your Favorite Era:</label>
+              <br />
+              <select name="era">
+                <option selected disabled>Select Era</option>
+                <option value="50s">50's</option>
+                <option value="60s">60's</option>
+                <option value="70s">70's</option>
+                <option value="80s">80's</option>
+                <option value="90s">90's</option>
+                <option value="2000s">2000's</option>
+                <option value="2010s">2010's</option>
+                <option value="2020s">2020's</option>
+              </select>
+            </div>
+
+            <div id="position">
+              <!-- User Story 14 -->
+              <label>Your Basketball Position:</label>
+              <input type="checkbox" name="=position" value="center" />
+              <span class="goat-name">Center</span>
+              <input type="checkbox" name="=position" value="powerforward" />
+              <span class="goat-name">Power Forward</span>
+              <input type="checkbox" name="=position" value="smallforward" />
+              <span class="goat-name">Small Forward</span>
+              <input type="checkbox" name="=position" value="shootingguard" />
+              <span class="goat-name">Shooting Guard</span>
+              <input type="checkbox" name="=position" value="pointguard" />
+              <span class="goat-name">Point Guard</span>
+              <br />
+            </div>
+
+            <div id="players">
+              <label for="players">Who's your GOAT? 🐐</label>
+              <br />
+
+              <!-- User Story 13 -->
+              <input type="radio" name="players" value="Bryant" />
+              <span class="goat-name">Kobe Bryant</span>
+              <input type="radio" name="players" value="jordan" />
+              <span class="goat-name">Michael Jordan</span>
+              <input type="radio" name="players" value="James" />
+              <span class="goat-name">LeBron James</span>
+              <input type="radio" name="players" value="abduljabar" />
+              <span class="goat-name">Kareen Abduljabar</span>
+              <input type="radio" name="players" value="johnson" />
+              <span class="goat-name">Magic Johnson</span>
+              <input type="radio" name="players" value="russel" />
+              <span class="goat-name">Bill Russell</span>
+              <input type="radio" name="players" value="chamberlain" />
+              <span class="goat-name">Wilt Chamberlain</span>
+              <input type="radio" name="players" value="west" />
+              <span class="goat-name">Jerry West</span>
+              <input type="radio" name="players" value="robertson" />
+              <span class="goat-name">Oscar Robertson</span>
+              <input type="radio" name="players" value="curry" />
+              <span class="goat-name">Steph Curry</span>
+              <input type="radio" name="players" value="durant" />
+              <span class="goat-name">Kevin Durant</span>
+              <input type="radio" name="players" value="others" />
+              <span class="goat-name">Others</span>
+            </div>
+          </div>
+
+          <!-- User Story 15 -->
+          <div id="text-area">
+            <label for="address">Why did you choose him as your GOAT?</label>
+            <textarea
+              name="address"
+              maxlength="240"
+              rows="8"
+              cols="30"
+              required
+            ></textarea>
+          </div>
+
+          <!-- User Story 16, 17 -->
+          <div id="submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

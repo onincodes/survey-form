@@ -1,0 +1,189 @@
+body {
+  width: 55vw;
+  height: 48vw;
+  background-color: black;
+}
+
+#survey-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  background-color: white;
+  padding: 2vw;
+  border-radius: 20px;
+  margin-top: 78vw;
+}
+
+#players-img {
+  width: 50vw;
+  height: auto;
+  border-radius: 1vw;
+}
+
+#survey-info {
+  text-align: center;
+  width: 100%;
+}
+
+#title {
+  font-size: 2.4vw;
+  font-family: Helvetica;
+}
+
+#description {
+  font-size: 2vw;
+  font-family: Helvetica;
+  margin: -1vw;
+}
+
+#survey {
+  padding-top: 5vw;
+}
+
+#survey-form input {
+  width: 50vw;
+  height: 1.5vw;
+  padding: 0.8vw;
+  font-size: 1.2vw;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5vw;
+}
+
+#survey-form label {
+  display: block;
+  font-size: 1.5vw;
+  font-family: Arial;
+  margin-bottom: -0.8vw;
+}
+
+#name,
+#email,
+#age {
+  font-size: 1.5vw;
+  font-family: Arial;
+  margin-bottom: 2vw;
+}
+
+#age-era input {
+  width: 14vw;
+  height: 1.5vw;
+  font-size: 1.2vw;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5vw;
+  margin-top: 1.5vw;
+}
+
+select {
+  width: 12vw;
+  font-size: 1.2vw;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#age-era {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+#age-era label {
+  display: block;
+  margin-right: -3.5vw;
+  margin-bottom: 0.5vw;
+}
+
+#number-label,
+select {
+  width: 18vw;
+  height: 3.6vw;
+  padding: 0.5vw;
+  font-size: 1.2vw;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#age-era-players {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+#players {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#players label {
+  font-family: Helvetica;
+  font-size: 3vw;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+
+.goat-name {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1vw;
+  margin-top: -1vw;
+  margin-bottom: 2vw;
+}
+
+#position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#position label {
+  font-family: Helvetica;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+
+.goat-name {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1vw;
+  margin-top: -1vw;
+  margin-bottom: 2vw;
+}
+
+#text-area label {
+  font-size: 1.5vw;
+  font-family: Helvetica;
+  margin-bottom: 1vw;
+  margin-top: 2vw;
+}
+
+#text-area textarea {
+  width: 50vw;
+  height: 15vw;
+  padding: 0.8vw;
+  font-size: 1.2vw;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5vw;
+}
+
+#submit input {
+  width: 10vw;
+  height: 3vw;
+  font-size: 1.2vw;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  color: white;
+  background-color: #d80909;
+  margin-bottom: 1.5vw;
+}
